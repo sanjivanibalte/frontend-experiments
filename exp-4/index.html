@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <script src="script.js"></script>
+    
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form onsubmit="return validateForm()">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" required />
+      <br />
+
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" required />
+      <br />
+
+      <label for="address">Address:</label>
+      <textarea id="address" required></textarea>
+      <br />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" required />
+      <br />
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" required />
+      <br />
+
+      <label for="mobileNumber">Mobile Number:</label>
+      <input type="tel" id="mobileNumber" required />
+      <br />
+      <br />
+      <input type="submit" value="Register" />
+    </form>
+  </body>
+</html>
